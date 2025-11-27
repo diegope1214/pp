@@ -3,7 +3,7 @@ function validarCodigo() {
     const mensaje = document.getElementById('mensaje');
 
     if (input === 'XXVVIIXXV') {
-        mensaje.textContent = 'T2(1,66,54) – T3(5) – T2(69,20)';
+        mensaje.textContent = '02(1,66,54) – 22(5) – 02(69,20)';
         mensaje.style.color = 'green';
     } else {
         mensaje.textContent = 'Código incorrecto';
